@@ -1,0 +1,13 @@
+/*NÃO DELETAR ESTE ARQUIVO, POIS O NEXT.JS USA ELE MESMO QUE NÃO TENHA NADA AQUI DENTRO DO FONTE*/
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+

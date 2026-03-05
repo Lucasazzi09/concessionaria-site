@@ -1,0 +1,21 @@
+# Dependências
+node_modules/
+package-lock.json
+
+# Build
+.next/
+out/
+dist/
+
+# Ambiente
+.env
+.env.local
+.env.*.local
+
+# Uploads
+public/uploads/
+public/midia/
+
+# Sistema
+.DS_Store
+Thumbs.db
