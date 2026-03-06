@@ -2,6 +2,8 @@ import { query } from '@/lib/db';
 import Link from 'next/link';
 import { DeletarCarroButton } from './DeletarCarroButton';
 
+export const dynamic = 'force-dynamic';
+
 interface SearchParams {
   sucesso?: string;
   erro?: string;

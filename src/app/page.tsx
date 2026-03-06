@@ -4,6 +4,8 @@ import Carrossel from '@/components/Carrossel';
 import GaleriaSobre from '@/components/GaleriaSobre';
 import './home.css'; 
 
+export const dynamic = 'force-dynamic';
+
 export default async function Home() {
   const carros = await query(`
     SELECT c.*, 

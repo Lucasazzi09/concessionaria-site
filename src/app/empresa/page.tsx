@@ -3,6 +3,8 @@ import Link from 'next/link';
 import Header from '@/components/Header';
 import GaleriaSobre from '@/components/GaleriaSobre';
 
+export const dynamic = 'force-dynamic';
+
 export default async function EmpresaPage() {
   // Busca as mídias da seção "empresa"
   const midiasEmpresa = await query(`
