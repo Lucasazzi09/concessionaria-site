@@ -1,6 +1,6 @@
 import { query } from '@/lib/db';
 import Link from 'next/link';
-import Carrossel from '@/components/Carrossel';
+import Carrossel from '@/components/carrossel';
 import GaleriaSobre from '@/components/GaleriaSobre';
 import './home.css'; 
 
