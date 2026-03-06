@@ -125,6 +125,7 @@ const styles = {
     gap: '50px',
     alignItems: 'center'
   },
+  sobreTexto: {},
   titulo: {
     fontSize: '32px',
     color: '#333',
