@@ -1,11 +1,11 @@
 /* dashboard.css */
-.container {
+.dashboard-container {
   min-height: 100vh;
   background-color: #f5f5f5;
   font-family: 'Arial', sans-serif;
 }
 
-.header {
+.dashboard-header {
   background-color: white;
   padding: 20px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -14,13 +14,13 @@
   align-items: center;
 }
 
-.titulo {
+.dashboard-titulo {
   font-size: 20px;
   color: #333;
   margin: 0;
 }
 
-.botaoSair {
+.dashboard-botao-sair {
   padding: 8px 15px;
   background-color: #dc3545;
   color: white;
@@ -30,29 +30,29 @@
   transition: background-color 0.3s;
 }
 
-.botaoSair:hover {
+.dashboard-botao-sair:hover {
   background-color: #c82333;
 }
 
-.main {
+.dashboard-main {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
 }
 
-.boasVindas {
+.dashboard-boas-vindas {
   font-size: 24px;
   margin-bottom: 20px;
   color: #333;
 }
 
-.grid {
+.dashboard-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
 }
 
-.card {
+.dashboard-card {
   background-color: white;
   padding: 20px;
   border-radius: 10px;
@@ -63,31 +63,40 @@
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.card:hover {
+.dashboard-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
 
-.cardTitulo {
+.dashboard-card-titulo {
   font-size: 18px;
   margin-bottom: 10px;
   color: #333;
 }
 
-.cardDescricao {
+.dashboard-card-descricao {
   color: #666;
   font-size: 14px;
   margin: 0;
 }
 
+.dashboard-carregando {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-size: 18px;
+  color: #666;
+}
+
 @media (max-width: 768px) {
-  .header {
+  .dashboard-header {
     flex-direction: column;
     gap: 15px;
     text-align: center;
   }
   
-  .grid {
+  .dashboard-grid {
     grid-template-columns: 1fr;
   }
 }
